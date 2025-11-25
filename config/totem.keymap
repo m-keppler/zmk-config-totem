@@ -222,4 +222,13 @@
             >;
         };
     };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        ADJ_cond {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
 };
