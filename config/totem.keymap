@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5      &kp NUMBER_6  &kp N7                &kp N8                 &kp N9            &kp KP_PLUS
-        &kp LSHFT     &kp LEFT      &kp DOWN      &kp RIGHT     &kp LBKT    &kp EQUAL     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE
-&trans  &kp DEL       &kp PG_UP     &kp CAPS      &kp PG_DN     &kp LPAR    &kp TILDE     &kp PLUS              &kp MINUS              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-                                    &trans        &trans        &trans      &mo ADJ       &kp KP_N0             &kp DEL
+         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp N5      &kp NUMBER_6  &kp N7                &kp N8                 &kp N9            &kp KP_PLUS
+         &kp LEFT_WIN  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL     &kp LBKT    &kp EQUAL     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE
+&kp TAB  &kp DEL       &kp PG_UP     &kp CAPS        &kp PG_DN     &kp LPAR    &kp TILDE     &kp PLUS              &kp MINUS              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+                                     &trans          &trans        &trans      &mo ADJ       &kp KP_N0             &kp DEL
             >;
         };
 
