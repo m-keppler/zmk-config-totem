@@ -110,10 +110,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp N5      &kp NUMBER_6  &kp N7                &kp N8                 &kp N9            &kp KP_PLUS
-                    &sk LEFT_WIN  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL     &kp F5      &kp EQUAL     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE
-&mt LEFT_SHIFT TAB  &kp F1        &kp F2        &kp CAPS        &kp PG_DN     &kp LPAR    &kp TILDE     &kp PLUS              &kp MINUS              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
-                                                &kp LCTRL       &trans        &trans      &mo ADJ       &kp KP_N0             &kp DEL
+                    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp N5       &kp NUMBER_6  &kp N7                &kp N8                 &kp N9            &kp KP_PLUS
+                    &sk LEFT_WIN  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL     &kp F5       &kp EQUAL     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE
+&mt LEFT_SHIFT TAB  &kp F1        &kp F2        &kp CAPS        &kp PG_DN     &kp LPAR     &kp TILDE     &kp PLUS              &kp MINUS              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
+                                                &kp LCTRL       &trans        &kp SPACE    &mo ADJ       &mo 3                 &kp DEL
             >;
         };
 
@@ -139,7 +139,7 @@
                     &kp EXCL      &kp AT        &kp HASH        &kp DLLR   &kp PRCNT    &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp DQT
                     &sk LEFT_WIN  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &kp F5       &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSLASH
 &mt LEFT_SHIFT TAB  &kp RA(F18)   &kp RA(F19)   &trans          &trans     &trans       &kp C_VOL_DN   &kp C_VOL_UP    &kp K_MUTE      &kp C_NEXT       &kp BSLH       &trans
-                                                &kp LCTRL       &mo 3      &mo ADJ      &trans         &mo 2           &trans
+                                                &kp LCTRL       &mo 3      &kp SPACE    &trans         &mo 2           &trans
             >;
         };
 
