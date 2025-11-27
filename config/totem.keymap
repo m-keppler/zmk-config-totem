@@ -49,6 +49,11 @@
             bindings = <&kp ESC>;
             key-positions = <11 13>;
         };
+
+        combo_win {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <1 3>;
+        };
     };
 
     macros {
