@@ -45,7 +45,7 @@
             bindings = <&tog TVP1>;
         };
 
-        combo_esc {
+        combo_esc2 {
             bindings = <&kp ESC>;
             key-positions = <11 13>;
         };
