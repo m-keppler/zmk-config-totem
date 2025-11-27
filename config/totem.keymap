@@ -44,6 +44,11 @@
             key-positions = <11 12 13>;
             bindings = <&tog TVP1>;
         };
+
+        combo_esc {
+            bindings = <&kp ESC>;
+            key-positions = <11 13>;
+        };
     };
 
     macros {
