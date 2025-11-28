@@ -122,7 +122,7 @@
             bindings = <
                     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N7                &kp N8                 &kp N9            &kp N0
                     &kp LEFT_WIN  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL     &kp F5        &kp EQUAL     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE
-&mt LEFT_SHIFT TAB  &kp LC(F1)    &kp LC(F2)    &kp LC(ESC)     &kp LC(V)     &kp ESCAPE    &kp TILDE     &kp PLUS              &kp MINUS              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
+&mt LEFT_SHIFT TAB  &kp F1        &kp F2        &kp ESC         &kp V         &kp ESCAPE    &kp TILDE     &kp PLUS              &kp MINUS              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
                                                 &kp LCTRL       &trans        &kp SPACE     &trans        &mo 3                 &kp DEL
             >;
         };
