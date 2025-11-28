@@ -25,7 +25,7 @@
 &mt {
     global-quick-tap;
     flavor = "hold-preferred";
-    tapping-term-ms = <180>;
+    tapping-term-ms = <200>;
     quick-tap-ms = <100>;
 };
 
