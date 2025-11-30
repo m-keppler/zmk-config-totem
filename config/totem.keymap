@@ -51,7 +51,7 @@
 
         combo_enter {
             bindings = <&none>;
-            key-positions = <16 18>;
+            key-positions = <6 8>;
         };
     };
 
