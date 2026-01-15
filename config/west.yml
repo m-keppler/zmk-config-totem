@@ -2,10 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+      url-base: https://github.com/m-keppler
+    - name: m-keppler
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-keyboard-totem
+      remote: m-keppler
+      revision: main
   self:
     path: config
