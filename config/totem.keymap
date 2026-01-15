@@ -47,6 +47,16 @@
             bindings = <&none>;
             key-positions = <6 8>;
         };
+
+        F1_combo {
+            bindings = <&kp F1>;
+            key-positions = <0 1>;
+        };
+
+        F2_combo {
+            bindings = <&kp F2>;
+            key-positions = <1 2>;
+        };
     };
 
     macros {
@@ -88,10 +98,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &kp Q  &kp W  &kp E         &kp R  &kp T              &kp Y      &kp U  &kp I      &kp O    &kp P
-                    &kp A  &kp S  &kp D         &kp F  &kp G              &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT TAB  &kp Z  &kp X  &kp C         &kp V  &kp B              &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp SQT
-                                  &kp LEFT_ALT  &mo 1  &mt LCTRL ENTER    &kp SPACE  &mo 2  &kp BSPC
+                    &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y            &kp U  &kp I      &kp O    &kp P
+                    &kp A  &kp S  &kp D         &kp F  &kp G        &kp H            &kp J  &kp K      &kp L    &kp SEMICOLON
+&mt LEFT_SHIFT TAB  &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N            &kp M  &kp COMMA  &kp DOT  &kp FSLH       &kp SQT
+                                  &kp LEFT_ALT  &mo 1  &kp SPACE    &mt LCTRL ENTER  &mo 2  &kp BSPC
             >;
         };
 
@@ -114,10 +124,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp N5             &kp NUMBER_6  &kp N7                &kp N8                 &kp N9            &kp N0
-                    &kp LEFT_WIN  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL     &kp F5             &kp EQUAL     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE
-&mt LEFT_SHIFT TAB  &kp F1        &kp F2        &kp ESC         &kp V         &kp ESCAPE         &kp TILDE     &kp PLUS              &kp MINUS              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
-                                                &kp LEFT_ALT    &trans        &mt LCTRL ENTER    &kp SPACE     &mo 3                 &kp DEL
+                    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp NUMBER_4  &kp N5        &kp NUMBER_6     &kp N7                &kp N8                 &kp N9            &kp N0
+                    &kp LEFT_WIN  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL     &kp F5        &kp EQUAL        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE
+&mt LEFT_SHIFT TAB  &kp LC(Z)     &kp LC(F2)    &kp LC(C)       &kp LC(V)     &kp ESCAPE    &kp TILDE        &kp PLUS              &kp MINUS              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE
+                                                &kp LEFT_ALT    &trans        &kp SPACE     &mt LCTRL ENTER  &mo 3                 &kp DEL
             >;
         };
 
@@ -140,10 +150,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &kp EXCL      &kp AT        &kp HASH        &kp DLLR   &kp PRCNT          &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &kp DQT
-                    &sk LEFT_WIN  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &kp F5             &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSLASH
-&mt LEFT_SHIFT TAB  &kp RA(F18)   &kp RA(F19)   &trans          &trans     &trans             &kp C_VOL_DN   &kp C_VOL_UP    &kp C_MUTE      &kp C_NEXT       &kp BSLH       &kp SQT
-                                                &kp LEFT_ALT    &mo 3      &mt LCTRL ENTER    &kp SPACE      &trans          &kp BACKSPACE
+                    &kp EXCL      &kp AT        &kp HASH        &kp DLLR   &kp PRCNT    &kp PAGE_UP      &kp HOME        &kp UP_ARROW    &kp END          &kp DQT
+                    &sk LEFT_WIN  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL  &kp F5       &kp PAGE_DOWN    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSLASH
+&mt LEFT_SHIFT TAB  &kp RA(F18)   &kp RA(F19)   &trans          &trans     &trans       &kp C_VOL_DN     &kp C_VOL_UP    &kp C_MUTE      &kp C_NEXT       &kp BSLH       &kp SQT
+                                                &kp LEFT_ALT    &mo 3      &kp SPACE    &mt LCTRL ENTER  &trans          &kp BACKSPACE
             >;
         };
 
@@ -166,10 +176,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &sys_reset    &bt BT_CLR    &out OUT_TOG    &trans     &bootloader    &trans  &kp F7  &kp F8  &kp F9  &kp F12
-                    &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &trans         &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&mt LEFT_SHIFT TAB  &trans        &bt BT_PRV    &bt BT_NXT      &trans     &trans         &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                                                &kp LCTRL       &trans     &trans         &trans  &trans  &trans
+                    &sys_reset    &trans        &trans          &trans     &bootloader       &trans  &kp F7  &kp F8  &kp F9  &kp F12
+                    &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &out OUT_TOG      &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&mt LEFT_SHIFT TAB  &trans        &bt BT_PRV    &bt BT_NXT      &trans     &bt BT_CLR_ALL    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                                                &kp LCTRL       &trans     &trans            &trans  &trans  &trans
             >;
         };
 
