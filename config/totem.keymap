@@ -176,10 +176,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &sys_reset    &trans        &trans          &trans     &bootloader       &trans  &kp F7  &kp F8  &kp F9  &kp F12
-                    &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &out OUT_TOG      &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&mt LEFT_SHIFT TAB  &trans        &bt BT_PRV    &bt BT_NXT      &trans     &bt BT_CLR_ALL    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
-                                                &kp LCTRL       &trans     &trans            &trans  &trans  &trans
+                    &sys_reset      &trans        &trans          &trans     &bootloader       &trans  &kp F7  &kp F8  &kp F9  &kp F12
+                    &kp LEFT_WIN    &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &out OUT_TOG      &trans  &kp F4  &kp F5  &kp F6  &kp F11
+&mt LEFT_SHIFT TAB  &bt BT_CLR_ALL  &bt BT_PRV    &bt BT_NXT      &trans     &bt BT_CLR_ALL    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+                                                  &kp LCTRL       &trans     &trans            &trans  &trans  &trans
             >;
         };
 
