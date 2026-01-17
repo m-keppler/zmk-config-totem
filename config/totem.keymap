@@ -29,7 +29,7 @@
     quick-tap-ms = <100>;
 };
 
-&lt { require-prior-idle-ms = <100>; };
+&lt { require-prior-idle-ms = <130>; };
 
 / {
     combos {
